@@ -140,7 +140,7 @@ export default function useClockEvents(clock: ElementRef, handleChange: CalcTime
 
 		setTimeout(() => {
 			disableMouse.current = false
-		}, 10)
+		}, 150)
 	}
 	function calculatePoint(
 		offsetX: number,
