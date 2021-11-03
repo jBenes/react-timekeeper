@@ -1,4 +1,4 @@
-export declare const line: any;
-export declare const centerCircle: any;
-export declare const outerCircle: any;
-export declare const intermediateMinuteCircle: any;
+export declare const line: import("@emotion/utils").SerializedStyles;
+export declare const centerCircle: import("@emotion/utils").SerializedStyles;
+export declare const outerCircle: import("@emotion/utils").SerializedStyles;
+export declare const intermediateMinuteCircle: import("@emotion/utils").SerializedStyles;

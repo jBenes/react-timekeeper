@@ -1,1 +1,2 @@
-export default function TopBar(): any;
+/// <reference types="react" />
+export default function TopBar(): JSX.Element;

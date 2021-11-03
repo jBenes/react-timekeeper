@@ -1,1 +1,2 @@
-export default function TimeKeeper(): any;
+/// <reference types="react" />
+export default function TimeKeeper(): JSX.Element;

@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import { ElementRef } from '../helpers/types';
 declare type CalcTimeFromAngle = (angle: number, { canAutoChangeUnit, wasTapped, }: {
     canAutoChangeUnit: boolean;
@@ -6,9 +7,9 @@ declare type CalcTimeFromAngle = (angle: number, { canAutoChangeUnit, wasTapped,
 }) => void;
 export default function useClockEvents(clock: ElementRef, handleChange: CalcTimeFromAngle): {
     bind: {
-        onMouseDown: (e: any) => void;
+        onMouseDown: (e: import("react").MouseEvent<HTMLElement, MouseEvent>) => void;
         onTouchStart: () => void;
-        ref: any;
+        ref: import("react").MutableRefObject<HTMLDivElement>;
     };
 };
 export {};

@@ -1,2 +1,2 @@
-declare const styles: any;
+declare const styles: import("@emotion/utils").SerializedStyles;
 export default styles;

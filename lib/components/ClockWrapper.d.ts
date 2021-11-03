@@ -1,1 +1,2 @@
-export default function ClockWrapper(): any;
+/// <reference types="react" />
+export default function ClockWrapper(): JSX.Element;

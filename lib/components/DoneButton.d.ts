@@ -1,1 +1,2 @@
-export default function DoneButton(): any;
+/// <reference types="react" />
+export default function DoneButton(): JSX.Element;

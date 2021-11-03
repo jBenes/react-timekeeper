@@ -14,6 +14,6 @@ interface StateContext {
     setMode: (mode: MODE) => void;
     getComposedTime: () => TimeOutput;
 }
-export declare function StateProvider({ onChange, time: parentTime, children }: Props): any;
+export declare function StateProvider({ onChange, time: parentTime, children }: Props): JSX.Element;
 export default function useTimekeeperState(): StateContext;
 export {};

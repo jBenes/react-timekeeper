@@ -16,6 +16,6 @@ export declare type ConfigProps = Partial<Config>;
 interface Props extends ConfigProps {
     children: ReactElement;
 }
-export declare function ConfigProvider({ children, coarseMinutes, forceCoarseMinutes, switchToMinuteOnHourSelect, switchToMinuteOnHourDropdownSelect, closeOnMinuteSelect, hour24Mode, onDoneClick, doneButton, }: Props): any;
+export declare function ConfigProvider({ children, coarseMinutes, forceCoarseMinutes, switchToMinuteOnHourSelect, switchToMinuteOnHourDropdownSelect, closeOnMinuteSelect, hour24Mode, onDoneClick, doneButton, }: Props): JSX.Element;
 export default function useConfig(): Config;
 export {};
